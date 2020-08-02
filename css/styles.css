@@ -117,3 +117,7 @@ body{
     text-align: center;
    }
    
+   .place-order:hover{
+    background-color: #e67e22;
+   }
+   
