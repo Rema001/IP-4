@@ -30,3 +30,17 @@ body{
     font-style: italic;
     }
    
+    #tag{
+    color:#d35400;
+    font-weight: normal;
+    }
+   
+    .nav{
+    text-align: center;
+    }
+   
+    .nav img{
+    padding-right: 2%;
+    width:5%;
+    }
+   
