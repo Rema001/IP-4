@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(../images/pizza-menu-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
