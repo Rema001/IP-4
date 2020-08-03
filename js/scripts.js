@@ -99,3 +99,30 @@ $(document).ready(function(){
          }
        }
    }
+
+   toppingPriceTotal();
+
+ //object
+   var  newPizzaOrder = new pizzaOrder(
+    pizzaType,sizePrice,crustPrice,toppingPrice
+  );
+
+  // toggle delivery form
+  $("p#total").text("TOTAL: "+newPizzaOrder.total()+"ksh");
+
+  $("input[name='delivery']").on("click", function(){
+    $(".delivery-form1").toggle(this.value === "false" && this.checked);
+  });
+
+  ///alert message from input values ~ delivery form
+     var fullname = "";
+     var location = "";
+
+
+    $("form.delivery-form").submit(function(event){
+      event.preventDefault();
+       fullname = $("#new-full-name").val();
+       location = $("#new-location").val();
+      alert(fullname + " your Order will be delivered to "+location);
+    })
+
