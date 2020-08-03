@@ -60,6 +60,7 @@ $(document).ready(function(){
       }
 
 
+
   }
   pizzaTypeValue();
 
@@ -73,3 +74,4 @@ $(document).ready(function(){
           }
         }
     }
+
