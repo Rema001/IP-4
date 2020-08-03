@@ -87,3 +87,15 @@ $(document).ready(function(){
         }
       }
   }
+  pizzaCrustValue();
+
+  //to get  total toppingPrice and names of selected Toppings
+  function toppingPriceTotal(){
+       for(var i = 0;i<document.getElementsByName('top_ings').length;i++){
+         if(document.getElementsByName('top_ings')[i].checked){
+           toppingPrice = toppingPrice+ parseInt(document.getElementsByName('top_ings')[i].value);
+
+           toppingsName = toppingsName + document.getElementsByName('top_ings')[i].id + "," ;
+         }
+       }
+   }
