@@ -3,7 +3,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url(../images/food-roshan.jpg);
+  background-image: url(../images/chad-montano-MqT0asuoIcU-unsplash.jpg);
   background-attachment: fixed;
   background-size: cover;
   font-family: Comfortaa, cursive;
@@ -29,29 +29,29 @@ body{
     font-weight: lighter;
     font-style: italic;
     }
-   
+
     #tag{
     color:white;
     font-weight: normal;
     }
-   
+
     .nav{
     text-align: center;
     }
-   
+
     .nav img{
     padding-right: 2%;
     width:5%;
     }
-   
-   
+
+
     /* pizzatypes */
     .pizza-types{
     opacity: 0.9;
     border-radius: 2px;
     background-color:property rgba(0,0,0,0.6);
     }
-   
+
     .pizza-types h1{
         margin-top:-1%;
         margin-bottom:2%;
@@ -60,56 +60,56 @@ body{
         font-weight: bolder;
         color: wheat
         text-align: center;
-   
+
     }
-   
+
     .pizza-types h2{
     font-size: 16px;
     font-weight: bolder;
-   
+
     }
-   
+
     .pizza-types h2,p{
     padding-left: 2%;
     }
    .pizza-types p{
     margin-top: -3%;
    }
-   
+
    .pizza-types .btn{
     text-align: right;
-   
+
     background-color: #d35400;
     border:none;
-   
+
     }
-   
+
     .tagforpizzatype{
     color:#d35400;
     font-family: 'Reenie Beanie', cursive;
     font-size: 20px;
     font-weight: bold;
     }
-   
+
     .pizza-types .btn:hover{
     transform: scale(2,2);
-   
+
     }
-   
+
      /* modal for pizza types */
-   
-   
+
+
     .modal-backdrop, .modal-backdrop.fade.in {
     opacity: 0.7;
     filter: alpha(opacity=70);
-    
+
     background-color: transparent;
     }
-    
+
     .modal h4 {
     font-weight: bolder;
     }
-   
+
     .crust, .size{
     display: inline;
     padding-left: 2%
@@ -118,17 +118,17 @@ body{
     background-color:#d35400;
     text-align: center;
    }
-   
+
    .place-order:hover{
     background-color: #e67e22;
    }
-   
+
    #total{
     font-size: 20px;
     font-weight: bolder;
-   
+
    }
-   
+
    .confirm{
     background-color:#d35400;
     text-align: center;
@@ -136,23 +136,23 @@ body{
    .ordersummary{
     background-color: #ffffff;
     opacity : 0.9;
-   
-   
+
+
    }
-   
+
    .neworder{
     margin-top: 3%;
     font-size: 15px;
    }
-   
+
    #Orders h4{
     padding-bottom:5%;
    }
     .delivery-form1{
     display: none;
    }
-   
-   
+
+
    .ordersummary{
-   
+
     }
