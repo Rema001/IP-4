@@ -20,3 +20,14 @@ $(document).ready(function(){
 
 
 
+  $("form#neworder").submit(function(event) {
+    event.preventDefault();
+
+
+    var pizzaType;
+    var sizePrice = 0;
+    var crustPrice = 0;
+    var toppingPrice = 0;
+    var sizeName;
+    var crustName =' ';
+    var toppingsName = ' ';
