@@ -87,6 +87,7 @@ $(document).ready(function(){
         }
       }
   }
+
   pizzaCrustValue();
 
   //to get  total toppingPrice and names of selected Toppings
