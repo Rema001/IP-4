@@ -31,6 +31,7 @@ $(document).ready(function(){
     var sizeName;
     var crustName =' ';
     var toppingsName = ' ';
+
   //to get pizza type names
     function pizzaTypeValue(){
       if($("#Modal1").is(':visible')){
