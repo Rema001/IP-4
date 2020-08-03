@@ -134,3 +134,30 @@ $(document).ready(function(){
                            "<p><span class='neworder totalorder' > Total in ksh : "+ newPizzaOrder.total()+ "</span></p><br><br>"
                            );
 
+    var pizzaGrandTotal = 0;
+    for(var i = 0;i<$('.totalorder').length;i++){
+      pizzaGrandTotal  += newPizzaOrder.total();
+      $("div#totalOrder").text("Grand Total = "+pizzaGrandTotal+"ksh");
+
+
+    }
+
+    $(".confirm2").click(function(event){
+      alert("Thank-You for ordering with us.Your order will be ready shortly");
+      alert($("div#totalOrder").text());
+    })
+
+
+
+  })
+
+
+
+
+
+
+
+  ///to make order summary to move when screen is scrolled
+  // $(window).scroll(function(){
+  // $(".ordersummary").css({"margin-top": ($(window).scrollTop()) + "px"});
+});
