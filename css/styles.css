@@ -3,7 +3,11 @@
 body{
   margin: 0px;
   padding: 0px;
+<<<<<<< HEAD
   background-image: url(../images/menu-items/foad-roshan-Y6OgisiGBjM-unsplash.jpg);
+=======
+  background-image: url(../images/logos/foad-roshan-Y6OgisiGBjM-unsplash.jpg);
+>>>>>>> gh-pages
   background-attachment: fixed;
   background-size: cover;
   font-family: Comfortaa, cursive;
